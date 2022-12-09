@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  --font-family-title:"Montserrat", sans-serif;
+  --font-family-text:"Fraunces", serif;
+}
+
+body {
+  background: hsl(30deg, 38%, 92%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  height: 440px;
+  width: 620px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.card-text {
+  font-family: var(--font-family-title);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 10px;
+  color: hsl(228deg, 12%, 48%);
+}
+
+.card-title {
+  font-family: var(--font-family-text);
+  color: hsl(212deg, 21%, 14%);
+  line-height: 30px;
+}
+
+.p-text {
+  font-family: var(--font-family-title);
+  color: hsl(228deg, 12%, 48%);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.card__value-price {
+  font-family: var(--font-family-text);
+  font-size: 30px;
+  color: hsl(158deg, 36%, 37%);
+}
+
+.card__value-previousPrice {
+  font-family: var(--font-family-title);
+  font-size: 13px;
+  text-decoration: line-through;
+  color: hsl(228deg, 12%, 48%);
+}
+
+.card__value {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.card__image {
+  width: 50%;
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.card__info {
+  width: 50%;
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 0 8px 8px 0;
+}
+
+.card__info-data {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card__buttom {
+  font-family: var(--font-family-title);
+  font-weight: 700;
+  font-size: 12px;
+  background: hsl(158deg, 36%, 37%);
+  border-radius: 8px;
+  border-color: transparent;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.card__buttom:hover {
+  background: #184131;
+}/*# sourceMappingURL=style.css.map */
