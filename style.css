@@ -15,7 +15,7 @@
 
 .container {
   background: var(--color-cream);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,10 +23,12 @@
 }
 
 .card {
-  border-radius: 8px;
   display: flex;
   height: 440px;
-  width: 620px;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .card-text {
@@ -75,7 +77,6 @@
 }
 
 .card-image {
-  border-radius: 8px 0px 0px 8px;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -84,7 +85,6 @@
 
 .card__info {
   background: var(--color-white);
-  border-radius: 0 8px 8px 0;
   width: 50%;
 }
 
