@@ -78,8 +78,7 @@
 
 .card-image {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -113,4 +112,4 @@
 }
 .card__buttom:hover {
   background: #184131;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
